@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina de login de recursos humanos da unipaulistana">
+    <meta name="keywords" content="recursos, humanos, unipaulistana">
+    <meta name="author" content="Tempest">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylemenucadastro.css">
+    <title>Recursos Humanos - UniPaulistana</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <form action="SalvaBeneficio" method="post" class="formcad">
+                <fieldset>
+                    <legend>Cadastro de Benefícios</legend>
+                    <input type="text" name="nomedobeneficio" id="" required placeholder="Nome do Benefício"><br>
+                    <input type="text" name="sigladobeneficio" required placeholder="Sigla do Benefício"><br>
+                    <select name="tipobeneficio" required>
+                        <option value="" name="">Selecione o Benefício</option>
+                        <option value="Alimentacao" name="Alimentacao">Alimentação</option>
+                        <option value="Educação" name="Educacao">Educação</option>
+                        <option value="Refeicao" name="Refeicao">Refeição</option>
+                        <option value="Saude" name="Saude">Saude</option>
+                      </select><br>
+                    <textarea name="descricaobeneficio" id="" cols="30" rows="10" placeholder="Descrição do Benefício"></textarea>
+                    <input type="submit" id="enviar" value="Cadastrar">
+                    
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
